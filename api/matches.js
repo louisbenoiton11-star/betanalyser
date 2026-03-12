@@ -13,7 +13,8 @@ const LEAGUE_IDS = {
   "Liga Portugal": 94
 };
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
+
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Content-Type", "application/json");
 
