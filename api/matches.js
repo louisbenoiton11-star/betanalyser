@@ -1,3 +1,6 @@
+
+const fetch = require("node-fetch");
+
 const API_KEY = "c337cbf0c92878d290ee4a73daac3611";
 
 const LEAGUE_IDS = {
