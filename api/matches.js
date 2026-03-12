@@ -28,7 +28,7 @@ export default async function handler(req, res) {
     const leagueId = LEAGUE_IDS[league.trim()];
     if (!leagueId) continue;
     try {
-      const url = "https://v3.football.api-sports.io/fixtures?date=" + today + "&league=" + leagueId + "&season=2026";
+      const url = "https://v3.football.api-sports.io/fixtures?date=" + today + "&league=" + leagueId + "&season=2025";
       const r = await fetch(url, { headers: { "const ANTHROPIC_KEY = "sk-ant-api03-TZdJClmeAMiQ6_jmLaoXqXnudbCr_yyYv0FyIsOkPW39tSYbK5HZwCBC3K3ML6M9PCThBf3ScH3ht_bLjwOmA-UKq6vAAA";
 
 export default async function handler(req, res) {
